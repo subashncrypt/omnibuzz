@@ -1,7 +1,19 @@
+export interface TopTrendingSearches{
+    title : {
+        query: String,
+        exploreLink :String,
+    };
+    formattedTraffic:String;
+    relatedQueries:Object[];
+    articles:Object[];
+    shareUrl:String;
+}
+
+
 export interface TrendingSearches{
     date: String;
     formattedDate: String;
-    trendingSearches : Object[];
+    trendingSearches : TopTrendingSearches[];
 }
 
 export interface Search{
