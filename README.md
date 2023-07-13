@@ -1,10 +1,10 @@
-# Express API Starter with Typescript
+# Omnibuzz is one way of getting real-time data trends based on location keywords country/state/place.
 
-How to use this template:
+Data Fetched & Scraped from Google
 
-```sh
-npx create-express-api --typescript --directory my-api-name
-```
+* [google-trends-api](https://www.npmjs.com/package/google-trends-api)
+  * npm i google-trends-api.
+  * https://github.com/pat310/google-trends-api#readme
 
 Includes API Server utilities:
 
