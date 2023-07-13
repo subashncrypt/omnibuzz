@@ -1,7 +1,5 @@
 import express from 'express';
-
 import MessageResponse from '../interfaces/MessageResponse';
-import emojis from './emojis';
 import googleTrends from './google.trends/google.trends';
 
 
@@ -14,7 +12,6 @@ router.get<{}, MessageResponse>('/', (req, res) => {
   });
 });
 
-router.use('/emojis', emojis);
-router.use('/trends',googleTrends);
+router.use('/gtrends',googleTrends);
 
 export default router;
